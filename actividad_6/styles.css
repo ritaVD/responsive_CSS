@@ -1,0 +1,21 @@
+.movil, .escritorio {
+    display: none;
+}
+
+@media (max-width:768px){
+    .escritorio{
+        display: block;
+        width: 100px;
+        background-color: rgb(220, 45, 45);
+        color: white;
+        padding: 10px;
+    }
+}
+@media (min-width:768px){
+    .movil{
+        display: block;
+        width: 100%;
+        background-color: rgb(135, 206, 235);
+        padding: 10px;
+    }
+}
